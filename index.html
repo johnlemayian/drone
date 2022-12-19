@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Mouse Movement Effect</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" ></script>
 </head>
 <body>
     <div id="banner">
@@ -17,6 +18,15 @@
            
         </div>
     </div>
-    
+
+   <script>
+    $('#banner').mousemove(function(e){
+        var moveX = (e.pageX * -1/2)+300;
+        var moveY = (e.pageY * -1/3)+120;
+        $('#drone-box').css({
+          'transform' : 'translate3d('+moveX+'px,'+moveY+'px,0)'
+        });
+     });
+   </script> 
 </body>
 </html>
