@@ -16,6 +16,7 @@
     margin: 150px auto;
     width: 200px;
     position: relative;
+    transition: 2s;
 }
 .drone-pic{
     width: 100%;
