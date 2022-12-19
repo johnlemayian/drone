@@ -11,11 +11,11 @@
     background-size: cover;
 
 }
+
 #drone-box{
-    margin:150px auto;
-    transition:2s;
-    width:200px;
-    position:relative;
+    margin: 150px auto;
+    width: 200px;
+    position: relative;
 }
 .drone-pic{
     width: 100%;
@@ -29,6 +29,7 @@
 .right-pic{
     width:80px;
     top:0;
-    right:-11px;
+    right: -11px;
     position:absolute;
+
 }
